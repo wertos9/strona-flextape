@@ -1,0 +1,144 @@
+#flexcont{
+    display: flex;
+    flex-direction: column;
+}
+.banerbox{
+    display: flex;
+    flex-direction: row;
+    max-width: 1315px;
+    max-height: 200px;
+    min-width: fit-content;
+    min-height: fit-content;
+    border: solid 3px green;
+    background-color: greenyellow;
+}
+#baner-text{
+    order:1;
+    margin-left: 25px;
+    margin-right: 5px;
+    line-height: 145px;
+}
+#baner-1{
+ 
+    order:2;
+}
+#baner-2{
+ 
+    order:3;
+}
+#baner-3{
+  
+    order:4;
+}
+#baner-3-1{
+  
+    order:4;
+    margin-left: 5px;
+}
+.baner{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left:auto;
+}
+.box{
+    width: 125px;
+    height: 125px;
+    min-width: 125px;
+    min-height: 125px;
+    border: solid 3px red;
+    background-color: yellow;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    max-width: 1315px;
+    max-height: 50px;
+    min-width: fit-content;
+    min-height: 50px;
+    border: solid 3px rebeccapurple;
+    background-color: orange;
+    margin-top: 15px;
+}
+.menu_box{
+    width: 25%;
+    height: 50px;
+    border: dotted blue 1px;
+    text-align: center;
+    line-height: 50px;
+}
+.index{
+    display: flex;
+    flex-direction: row;
+    max-width: 1315px;
+    margin-top: 30px;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    width: 435px;
+    min-width: fit-content;
+    border: solid 3px blue;
+    height: 450px;
+    padding: auto;
+    overflow: hidden;
+}
+#box2{
+    display: flex;
+    flex-direction: row;
+    width: 850px;
+    min-width: fit-content;
+    border: solid 3px green;
+    height: 700px;
+    padding: 10px;
+    margin-left: 30px;
+}
+#box2_1{
+    height: 20px;
+    width: 20px;
+    color: gray;
+    border: solid 3px red;
+}
+#box2_2{
+    height: 10px;
+    width: 20px;
+    color: gray;
+    border: solid 3px green;
+}
+#box2_3{
+    height: 40px;
+    width: 20px;
+    color: gray;
+    border: solid 3px blue;
+}
+#stopka-text{
+    order:1;
+    margin-right: 125px;
+    margin-left: 125px;
+    line-height: 145px;
+}
+.box2{
+    margin: auto;
+}
+.footer{
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1315px;
+    max-height: 200px;
+    min-width: fit-content;
+    border: solid 3px silver;
+    background-color: olive;
+    margin-top: 30px;
+}
+h1{
+    color: darkblue;
+    margin-block-start: unset;
+    margin-block-end: unset;
+}
+h2{
+    color: firebrick;
+    margin-block-start: unset;
+    margin-block-end: unset;
+}
